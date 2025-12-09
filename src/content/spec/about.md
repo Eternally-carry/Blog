@@ -1,7 +1,12 @@
 
-This website is built with the **Astro** framework using the [Mizuki](https://github.com/matsuzaka-yuki/mizuki) theme.
-
-::github{repo="matsuzaka-yuki/Mizuki"}
+本网站使用 **Astro** 的 [Mizuki](https://github.com/matsuzaka-yuki/mizuki) 主题构建
+::github{repo="matsuzaka-yuki/Mizuki"}   
+   
+> ### 本站图片来源
+> - [头像来源](https://www.pixiv.net/artworks/77845097) by [QuAn___](https://www.pixiv.net/users/6657532)
+> - [Unsplash](https://unsplash.com/)
+> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
+> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
 
 ## 🌟 Theme Features
 
