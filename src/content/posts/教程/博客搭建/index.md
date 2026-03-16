@@ -209,5 +209,26 @@ sudo certbot renew --dry-run
 
 我这边使用Cloudfare（赛博大善人）的Pages为例
 
-再Cloudfare的首页，点进入Workers和Pages，点击创建应用程序。如果是英文，可以点击右上角切换为中文。  
-点击下面的创建pages按钮开始创建Pages。
+在Cloudfare的首页，Compute栏下拉，点进入Workers和Pages，点击蓝色按钮创建应用程序。  
+
+![Worker和Pages](/src/content/posts/教程/博客搭建/1.png)
+如果是英文，可以点击右上角切换为中文。
+![切换中文](/src/content/posts/教程/博客搭建/2.png)
+“下面想要使用Pages?”旁边“开始使用”按钮开始创建Pages。
+![创建Pages](/src/content/posts/教程/博客搭建/3.png)
+你可以选择从github仓库连接构建文件，或者直接上传现成的网页前端文件
+![登录gtihub](/src/content/posts/教程/博客搭建/4.png)
+我这里选择直接连接github上的仓库，完成后点击开始设置
+![选择远程仓库](/src/content/posts/教程/博客搭建/5.png)
+也是使用Mizuki直接跟图上一样的就行，修改完保存并部署即可。
+![配置环境](/src/content/posts/教程/博客搭建/6.png)
+至此，部署就完成了。  
+你能够在Workers和Pages的页面能够找到新建的项目。  
+进入项目详情后，点击“自定义域”转到设置界面，点击右上角的蓝色按钮，添加自定义域，添加完成后即可使用自己的域名访问。
+![配置自定义域](/src/content/posts/教程/博客搭建/7.png)
+
+---
+# 后记补充
+由于Cloudfare在国内并没有CDN节点，所以Pages在国内的访问速度非常不理想。  
+特别是晚高峰的时候，国内三大运营商的骨干网出口带宽有限，会导致访问速度很慢。  
+有备案域名的话，可以使用国内的免费CDN进行加速，这里目前不在赘述，后面可能会出教程。
